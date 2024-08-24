@@ -75,8 +75,15 @@ Change Wireshark's filter to DHCP and we'll observe changes by attempting to cha
 <br />
 
 <p>
-<img src="https/k6Ze5kV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iohz1tf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-AFASFAASFADSFDSAFDSAFASFASDFASDGAEGASDGASDDGASDGASDGASDG
+Using nslookup, you can query the DNS server to find the IP address associated with any given hostname.
+<br />
+
+<p>
+<img src="https://i.imgur.com/NV2zwRl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lastly, we'll monitor RDP traffic. Set your Wireshark filter to tcp.port==3389, or simply use 'rdp' in the filter, as RDP traffic uses port 3389 and both filters will achieve the same result. Being that we are connecting to VM-1 via remote desktop, you can see Wireshark populating with RDP traffic.
 <br />
